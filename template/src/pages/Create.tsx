@@ -123,7 +123,7 @@ const Create = () => {
       {!roomCreated ? (
         <View style={style.content} onLayout={onLayout}>
           <View style={style.leftContent}>
-            <Text style={style.heading}>{$config.APP_NAME}</Text>
+            <Text style={style.heading}>{"TESTING CHANGES"}</Text>
             <Text style={style.headline}>{$config.LANDING_SUB_HEADING}</Text>
             <View style={style.inputs}>
               <TextInput
